@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-let CONNECTION_STRING = 'mongodb://127.0.0.1:27017/tutorials'
+let CONNECTION_STRING = ''
  
 module.exports = async (app) => {
     try{
